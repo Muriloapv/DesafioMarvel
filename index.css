@@ -3,23 +3,33 @@
     padding: 0px;
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
+    color: white;
     background-color: #202020;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+header a {
+    color: white;
+}
 header img {
     max-width: 200px;
     padding: 10px;
 }
 
+.header-img:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
 header h2{
+    color: white;
     margin: 20px;
 }
 
@@ -29,6 +39,7 @@ header h2{
 }
 
 .header-li {
+    color: white;
     font-size: 20px;
     margin-left: 10px;
 }
@@ -40,3 +51,18 @@ header h2{
     color: black;
     transition: 0.5s ease;
 }
+
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    }
+
+footer p, a {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    margin: 0 auto;    
+}
+
