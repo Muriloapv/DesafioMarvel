@@ -1,37 +1,31 @@
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body, html {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
 }
 
-section h2 {
-    padding-top: 45px;
-    padding-bottom: 20px;
-    font-size: 30px;
-
+section h1 {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
 }
 
-section input {
-    width: 300px;
-    height: 24px;
-    border-radius: 6px;
+#personagens {
+    display: grid;
+    max-width: 100%;
+}
+.personage-one {
+    border: 1px solid color red;
+    background-color: beige;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
 }
 
-.sec-button {
-    padding: 10px;
-    padding-bottom: 350px;
+.personage-info {
+
+}
+.personagem-img {
+    max-width: 200px;
 }
 
-section button {
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-section button:hover {
-    transition: 0.5s ease;
-    background-color: white;
-    color: red;
-    border-color: red;
-}
