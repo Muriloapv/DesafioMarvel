@@ -60,7 +60,29 @@ header h2{
     color: black;
     transition: 0.5s ease;
 }
+.umDois {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 70px;
+    padding-top:100px;
+}
 
+
+.s-img {
+    width: 410px;
+
+}
+
+.p-img {
+    max-width: 300px;
+
+}
+.s-img:hover,
+.p-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
  footer {
     background-color: black;
